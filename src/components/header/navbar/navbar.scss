@@ -1,11 +1,11 @@
 .header__nav{
     width: 100%;
-    min-height: 50px;
-    background-image: linear-gradient(90deg, rgb(33, 33, 109), rgb(19, 20, 85));
+    min-height: 70px;
+    background-color: transparent;
     display: flex;
     align-items: center;
     color: #fff;
-    border-bottom: solid 1px #fff;
+    border-bottom: solid 2px #fff;
 
     .navbar{
         width: 100%;
@@ -33,8 +33,8 @@
                         p{
                             margin: 0;
                             padding: 0;
-                            font-size: 1rem;
-                            font-weight: 400;
+                            font-size: 1.15rem;
+                            font-weight: 500;
                             position: relative;
                         }
                         p::before{

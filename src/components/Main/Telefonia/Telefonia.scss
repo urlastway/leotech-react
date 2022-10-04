@@ -1,57 +1,73 @@
 .telefonia{
-    background-size: cover;
-    width: 100%;
-    background-image: url(../../../img/backgraound_telefonia.jpg);
-    background-attachment: fixed;
-}
-.telefonia__content{
-    width: 100%;
-    height: 700px;
-    display: flex;
-    position: relative;
-    align-items: center;
+   width: 100%;
+   height: 630px;
+   background-color: #fff;
+   border-radius: 30px;
+   box-shadow: 0px 0px 23px -10px #000000;
 
-    &__left{
-        width: 35%;
-        height: auto;
-    }
-    &__right{
-        width: 65%;
-        height: auto;
-
+   .container{
+    width: 95%;
+   }
+   .immagine__telefonia{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
         img{
-            width: 100%;
-            box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.19);
+            width: 60%;
+            height: auto;
+        }
+   }
+   .telefonia__text{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    h1{
+        padding: 15px 0;
+        margin: 0;
+       }
+    &__list{
+        display: flex;
+        color: rgb(68, 68, 68);
+        
+            p{
+                margin-right: 5px;
+                font-size: 1.4rem;
+                font-weight: 400;
+            }
+        }
+    &__description{
+        width: 45%;
+
+        p{
+            padding-top: 60px;
+            font-size: 1.1rem;
+            font-weight: 400;
         }
     }
-    .telefonia-text{
-        content: '';
-        position: absolute;
-        top: 6rem;
-        left: 0;
+    button{
+        margin: 50px 0;
+        padding: 10px;
+        width: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        background-color: #1f1f1f;
+        color: #fff;
+        border-color: transparent;
 
-        &-title{
-            width: 50%;
-            padding: 20px;
-            background-color: #fff;
-
-            h1{
-                font-weight: 500;
-                font-size: 60px;
-            }
-            h2{
-                font-weight: 300;
-            }
-        }
-        &-subtitle{
-            width: 30%;
-
-            p{
-                padding: 20px 0;
-                font-weight: 400;
-                font-size: 1.2rem;
-            }
-        }
+    }
+    button:hover{
+        transition: 0.3s;
+        border-color: #1f1f1f;
+        background-color: transparent;
+        color: #1f1f1f;;
+    }
     }
 }
 

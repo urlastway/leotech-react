@@ -1,0 +1,46 @@
+.cards{
+    background-size: cover;
+    width: 100%;
+    background-image: url(../../img/backgraound_telefonia.jpg);
+    background-attachment: fixed;
+    padding-bottom: 40px;
+
+    h2{
+        padding: 30px 0;
+        color: rgb(27, 27, 27);
+        .secected__text{
+        color: rgb(68, 68, 68);
+        }
+    }
+
+    .cards__content{
+        width: 100%;
+        display: flex;
+        padding-bottom: 20px;
+        height: 650px;
+
+        &__firth, &__second, &__thr{
+            width: 100%;
+            padding: 0 10px;         
+        }
+
+        &__second, &__thr{
+            height: 300px;
+        }
+        &__left{
+            width: 50%;
+        }
+        &__right{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 50%;
+        }
+
+        @media (max-width: 900px) {
+            &__firth, &__secound, &__thr {
+                width: 100%;
+            }
+        }
+    }
+}

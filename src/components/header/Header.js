@@ -1,11 +1,16 @@
 import Navbar from './navbar/Navbar.js';
 import HederInner from './header-inner/HederInner.js';
+import './HeaderStyle.scss';
 
 function Header(){
     return (
         <header>
-            <Navbar/>
-            <HederInner/>
+            <div className='HederInner'>
+                <HederInner/>
+            </div>
+            <div className='Navbar'>
+                <Navbar/>
+            </div>
         </header>
     );
 }
