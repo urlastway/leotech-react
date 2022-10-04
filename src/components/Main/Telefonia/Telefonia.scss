@@ -1,0 +1,57 @@
+.telefonia{
+    background-size: cover;
+    width: 100%;
+    background-image: url(../../../img/backgraound_telefonia.jpg);
+    background-attachment: fixed;
+}
+.telefonia__content{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    position: relative;
+    align-items: center;
+
+    &__left{
+        width: 35%;
+        height: auto;
+    }
+    &__right{
+        width: 65%;
+        height: auto;
+
+        img{
+            width: 100%;
+            box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
+    .telefonia-text{
+        content: '';
+        position: absolute;
+        top: 6rem;
+        left: 0;
+
+        &-title{
+            width: 50%;
+            padding: 20px;
+            background-color: #fff;
+
+            h1{
+                font-weight: 500;
+                font-size: 60px;
+            }
+            h2{
+                font-weight: 300;
+            }
+        }
+        &-subtitle{
+            width: 30%;
+
+            p{
+                padding: 20px 0;
+                font-weight: 400;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
