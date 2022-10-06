@@ -1,0 +1,19 @@
+.logos__content{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos__container__image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        max-width: 300px;
+        padding: 50px;
+    }
+}

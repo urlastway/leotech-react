@@ -1,5 +1,6 @@
 import './hederInner.scss';
-import videoInner from '../../../video/headerinner.mp4'
+import videoInner from '../../../video/headerinner.mp4';
+import TypeWrite from 'react-typed';
 
 function HederInner(){
     return(
@@ -8,8 +9,16 @@ function HederInner(){
             <div className='headerInner__img'>
                 <div className='container'>
                     <div className='headerInner__text'>
-                        <h1 className='headerInner__text__top'>Il tuo riderimento<br />
-                            informatico a 360°</h1>
+                        <h1 className='headerInner__text__top'>
+                            <TypeWrite 
+                                strings={[
+                                    "Il tuo riferimento informatico a 360°"
+                                ]}
+                                typeSpeed = {100}
+                                backSpeed = {100}
+                                loop
+                            />
+                        </h1>
                         <p className='headerInner__text__bottom'>
                                 Svolgiamo numerosi servizi al favore di: privati, PMI<br /> e pubbliche
                                 amministrazioni; garantendo la totale<br /> funzionalità dei sistemi informatici.

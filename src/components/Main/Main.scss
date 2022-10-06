@@ -8,39 +8,30 @@
     h2{
         padding: 30px 0;
         color: rgb(27, 27, 27);
+
         .secected__text{
         color: rgb(68, 68, 68);
         }
     }
-
+    
     .cards__content{
         width: 100%;
         display: flex;
-        padding-bottom: 20px;
-        height: 650px;
+        justify-content: space-between;
+    }
 
-        &__firth, &__second, &__thr{
-            width: 100%;
-            padding: 0 10px;         
-        }
+}
 
-        &__second, &__thr{
-            height: 300px;
-        }
-        &__left{
-            width: 50%;
-        }
-        &__right{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            width: 50%;
-        }
+.logos__partners__text{
+    margin-top: 40px;
 
-        @media (max-width: 900px) {
-            &__firth, &__secound, &__thr {
-                width: 100%;
-            }
+    &__up{
+        font-size: 2rem;
+        font-weight: 500;
+        color: #000;
+
+        span{
+            color: rgb(68, 68, 68);;   
         }
     }
 }

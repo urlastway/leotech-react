@@ -6,6 +6,7 @@
     align-items: center;
     color: #fff;
     border-bottom: solid 2px #fff;
+    animation: navbar 2s;
 
     .navbar{
         width: 100%;
@@ -140,5 +141,16 @@
                 }
             }
         }
+    }
+    @media (min-width: 900px) {
+        .navbar__links__media{
+            display: none;
+        }
+    }
+}
+
+@keyframes navbar{
+    0%{
+        transform: translate(-2000px)
     }
 }
