@@ -27,7 +27,7 @@ function Navbar(){
             <div className='container'>
                 <nav className='navbar'>
                     <img src={logo_small} alt="logo-leotech" className='logo_small'/>
-                    <a href='#' className='hamburgher__button' onClick={() => setShowMenu(!showMenu)}>
+                    <a href='/#' className='hamburgher__button' onClick={() => setShowMenu(!showMenu)}>
                         <span className='bar'></span>
                         <span className='bar'></span>
                         <span className='bar'></span>

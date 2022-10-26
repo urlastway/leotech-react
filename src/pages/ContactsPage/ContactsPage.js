@@ -49,7 +49,7 @@ export default function ContactsPage(){
                                 <p>Tarquinia, via Aldo Moro, Centro commerciale TOP16, 2 piano.</p>
                             </div>
                             <div className='possition__leotech__map'>
-                                <iframe src="https://maps.google.com/maps?q=Top%2016%20Tarquinia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                                <iframe title='leotech_google_maps' src="https://maps.google.com/maps?q=Top%2016%20Tarquinia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                                 </iframe>
                             </div>
                         </div> 
