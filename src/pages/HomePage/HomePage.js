@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Card from './Cards/Card.js';
 import Logos from './Logos/Logos.js';
-import './Main.scss';
+import './HomePage.scss';
 
 import telefonia from '../../img/Cards/telefonia.png';
 import pc from '../../img/Cards/pc.png';
@@ -13,15 +13,15 @@ import partenr3 from '../../img/partners/logo-partner_3.png';
 import partenr4 from '../../img/partners/logo-partner_4.png';
 
 
-class Main extends Component{
+class HomePage extends Component{
 
     state = {
         cards: [
-            {id: 0, name: "Telefonia", image: telefonia, text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"},
+            {id: 0, name: "Telefonia", image: telefonia, link: '../telefonia', text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"},
 
-            {id: 1, name: "Computer", image: pc, text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"},
+            {id: 1, name: "Computer", image: pc, link: '../informatica', text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"},
 
-            {id: 2, name: "Web", image: web, text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"}
+            {id: 2, name: "Web", image: web, link: '../Web', text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"}
         ],
         logos: [
             {id:0, name: "Nome Azienda", image: partenr1},
@@ -33,10 +33,10 @@ class Main extends Component{
 
     render() {
 
-        function HideCookies(){
-            let cookies = document.getElementsByClassName("cookies");
-            cookies.classList.add("hidden");
-        }
+        // function HideCookies(){
+        //     let cookies = document.getElementsByClassName("cookies");
+        //     cookies.classList.add("hidden");
+        // }
 
         return(
             <>
@@ -85,4 +85,4 @@ class Main extends Component{
     }
 }
 
-export default Main
+export default HomePage

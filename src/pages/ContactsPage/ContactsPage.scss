@@ -1,0 +1,147 @@
+.contacts__page{
+    background-color: rgb(238, 238, 238);
+
+    .contacts__title{
+        padding: 20px 0;
+    }
+}
+
+.contacts__page__content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+
+    &__form{
+
+        width: calc(50% - 10px);
+        background-color: rgb(255, 255, 255);
+        padding: 5px 20px 20px 20px;
+        border-radius: 30px;
+
+        button{
+            width: 100px;
+            height: 40px;
+            margin-top: 20px;
+            background-color: transparent;
+            border: solid 2px rgb(54, 158, 255);
+            border-radius: 15px;
+            color: rgb(54, 158, 255);
+            font-size: 14px;
+            font-weight: 700;   
+        }
+        button:hover{
+            transition: 0.3s;
+            background-color: rgb(54, 158, 255);
+            border: solid 2px #fff;
+            color: #fff;
+        }
+
+        form{
+    
+            .form__mail{
+                width: 100%;
+                height: 550px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                p{
+                    font-size: 18px;
+                    margin: 10px 0;
+                }
+
+                input{
+                    height: 50px;
+                    font-size: 14px;
+                    border: solid 2px transparent;
+                    border-radius: 10px;
+                    background-color: rgb(250, 250, 250);
+                    padding: 0 10px;
+                }
+
+                input:hover{
+                    border: solid 2px rgb(54, 158, 255);
+                    transition: 0.3s;
+                }
+                input:focus{
+                    border: solid 2px rgb(54, 158, 255);
+                    outline: none;
+                }
+                textarea{
+                    font-size: 15px;
+                    border: solid 2px transparent;
+                    border-radius: 10px;
+                    background-color: rgb(250, 250, 250);
+                    padding: 10px 10px;
+                }
+                textarea:hover{
+                    border: solid 2px rgb(54, 158, 255);
+                    transition: 0.3s;
+                }
+                textarea:focus{
+                    border: solid 2px rgb(54, 158, 255);
+                    outline: none;
+                    
+                }
+            }
+        }
+    }
+
+    .possition__leotech{
+        width: calc(50% - 10px);
+        background-color: rgb(255, 255, 255);
+        padding: 10px 20px 20px 20px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .possition__leotech__info{
+        
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            h2{
+                font-size: 20px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+
+        .possition__leotech__map{
+            width: 100%;
+            height: auto;
+
+            iframe{
+                width: 100%;
+                height: 400px;
+            }
+        }
+    }
+        
+}
+
+@media (max-width: 1050px) {
+    .contacts__page__content{
+        flex-direction: column;
+
+        .contacts__page__content__form{
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            margin-bottom: 20px;
+            padding: 25px;
+        }
+
+
+        .possition__leotech{
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            margin-bottom: 20px;
+            padding: 25px;
+        }
+    }
+}

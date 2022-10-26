@@ -13,10 +13,10 @@ function Navbar(){
         menu = <div className='navbar__links__media'>
                     <ul>
                         <li>
-                            <a href='#'><p>Home</p></a>
+                            <a href='/'><p>Home</p></a>
                         </li>
                         <li>
-                            <a href='#'><p>Contatti</p></a>
+                            <a href='/contacts'><p>Contatti</p></a>
                         </li>
                     </ul>
                 </div>
@@ -36,10 +36,10 @@ function Navbar(){
                     <div className='navbar__links'>
                         <ul>
                             <li>
-                                <a href='#'><p>Home</p></a>
+                                <a href='/'><p>Home</p></a>
                             </li>
                             <li>
-                                <a href='#'><p>Contatti</p></a>
+                                <a href='/contacts'><p>Contatti</p></a>
                             </li>
                         </ul>
                     </div>

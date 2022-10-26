@@ -22,7 +22,7 @@ class Card extends Component{
                         <div className='card__text__description'>
                             <p>{this.props.card.text}</p>
                         </div>
-                        <button>Scopri di più</button>
+                        <a href={this.props.card.link}><button>Scopri di più</button></a>
                     </div>
                 </div>
             </div>
